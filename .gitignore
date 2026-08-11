@@ -1,0 +1,90 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+
+# =========================
+# Virtual Environment
+# =========================
+.env
+.venv/
+venv/
+env/
+
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+
+# =========================
+# Models
+# =========================
+models/*
+!models/.gitkeep
+
+
+# =========================
+# Data
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+
+data/external/*
+!data/external/.gitkeep
+
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+
+# =========================
+# Outputs
+# =========================
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+outputs/results/*
+!outputs/results/.gitkeep
+
+
+# =========================
+# Logs
+# =========================
+*.log
+
+
+# =========================
+# Python Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
